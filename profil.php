@@ -1,10 +1,10 @@
 <?php
-$nom = "trabelsi";
-$prenom = "Mohaned";
-$email = "mohaned.trabelsi@email.com";
+$nom = "ben mohamed";
+$prenom = "Moemen";
+$email = "moemen.benmoahemd@email.com";
 $age = 20;
-$ville= "zaghwen";
-$formation="marketing";
+$ville= "nabeul";
+$formation="developement web ";
 ?>
 <!DOCTYPE html>
 <html lang="fr">

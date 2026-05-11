@@ -1,6 +1,5 @@
-<?php 
+<?php
 echo('hello world <br>');
-$nom="Moemen";
 $prenom="benmohamed";
 echo('hello '.$nom);
 echo("les variables".$GLOBALS['nom']);
@@ -45,5 +44,19 @@ if(is_numeric($age)){
     echo('age est numerique');
 }
 
+
+
+
+function message($msg,$ms) {
+echo " $msg!","$ms";
+
+}
+message("bonjour","tous mondes"); 
+$g="A";
+$f=ord($g);
+
+echo($f);
+echo(strtoupper("moemen"));
+echo date("d/m/Y");
 
 ?>
