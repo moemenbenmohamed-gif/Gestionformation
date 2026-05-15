@@ -34,7 +34,7 @@ margin: 15px 0; border-radius: 8px; }
 <p>Durée : <?= htmlspecialchars($f['duree']) ?>
 | Niveau : <?= htmlspecialchars($f['niveau']) ?></p>
 <p class="prix"><?= number_format($f['prix'], 2, ',', ' ') ?> DT</p>
-<a href="profil_form.html?formation_id=<?= $f['id'] ?>">S'inscrire</a>
+<a href="inscription.php?formation_id=<?= $f['id'] ?>">S'inscrire</a>
 </div>
 <?php endforeach; ?>
 <?php endif; ?> </body> </html>
